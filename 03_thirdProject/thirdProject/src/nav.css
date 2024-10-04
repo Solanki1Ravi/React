@@ -1,0 +1,36 @@
+
+.mainNav{
+    display: flex;
+  
+}
+.navItems{
+    width: 100vw;
+    display: flex;
+    background-color: #704264;
+    
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.navItems a{
+    text-decoration: none;
+
+}
+.navItems li{
+    list-style-type: none;
+    color:#0F0F0F;
+    margin: 5px;
+    padding: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchBox{
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
