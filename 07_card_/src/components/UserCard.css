@@ -1,0 +1,23 @@
+.mainContainer{
+    background-color: antiquewhite;
+    padding: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.2rem;
+}
+
+#user-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+
+#user-desc{
+    font-weight: bold;
+    
+}
